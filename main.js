@@ -1,5 +1,5 @@
-import { renderLogin } from './pages/login.js?v=2';
-import { renderFeed } from './pages/feed.js?v=2';
+import { renderLogin } from './login.js';
+import { renderFeed } from './feed.js';
 
 const app = document.getElementById('app');
 
