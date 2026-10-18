@@ -1,4 +1,4 @@
-import { supabase } from '../supabase.js?v=2';
+import { supabase } from './supabase.js';
 export function renderLogin(container, onLoginSuccess) {
   const html = `
     <div class="login-container fade-in">
