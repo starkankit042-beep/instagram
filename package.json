@@ -1,5 +1,17 @@
 {
+  "name": "instagram",
+  "version": "1.0.0",
+  "type": "module",
   "dependencies": {
-    "@supabase/supabase-js": "^2.112.2"
+    "@supabase/supabase-js": "^2.115.0",
+    "serve": "^14.2.6"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "serve -s dist"
+  },
+  "devDependencies": {
+    "vite": "^8.2.2"
   }
 }
